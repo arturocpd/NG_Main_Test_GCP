@@ -4,5 +4,9 @@
         <members>AppleWatch</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>Dinner__c.Auto_resolve_test_2__c</members>
+        <name>CustomField</name>
+    </types>
     <version>54.0</version>
 </Package>
