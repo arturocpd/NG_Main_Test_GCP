@@ -180,10 +180,6 @@
         <fullName>WhatId</fullName>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>WhoId</fullName>
-        <type>Lookup</type>
-    </fields>
     <listViews>
         <fullName>CompletedTasks</fullName>
         <columns>SUBJECT</columns>
