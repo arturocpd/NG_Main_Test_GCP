@@ -240,45 +240,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Picklist_Dinner__c</fullName>
-        <externalId>false</externalId>
-        <label>Picklist Dinner</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Dinner1</fullName>
-                    <default>false</default>
-                    <label>Dinner1</label>
-                </value>
-                <value>
-                    <fullName>Dinner2</fullName>
-                    <default>false</default>
-                    <label>Dinner2</label>
-                </value>
-                <value>
-                    <fullName>Dinner 3</fullName>
-                    <default>false</default>
-                    <label>Dinner 3</label>
-                </value>
-                <value>
-                    <fullName>Dinner 4</fullName>
-                    <default>false</default>
-                    <label>Dinner 4</label>
-                </value>
-                <value>
-                    <fullName>Dinner 5</fullName>
-                    <default>false</default>
-                    <label>Dinner 5</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Point_of_contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <description>This is the description of the field. 111111111</description>
@@ -376,29 +337,6 @@
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>Picklist_Dinner__c</picklist>
-            <values>
-                <fullName>Dinner 3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Dinner 4</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Dinner 5</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Dinner1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Dinner2</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Dinner_RT_2</fullName>
@@ -437,17 +375,6 @@
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>Picklist_Dinner__c</picklist>
-            <values>
-                <fullName>Dinner1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Dinner2</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Nested_Dinner_RT</fullName>
@@ -483,17 +410,6 @@
             </values>
             <values>
                 <fullName>Dinner Table2</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Picklist_Dinner__c</picklist>
-            <values>
-                <fullName>Dinner1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Dinner2</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
