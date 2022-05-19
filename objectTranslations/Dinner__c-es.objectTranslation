@@ -50,30 +50,6 @@
     </fields>
     <fields>
         <label></label>
-        <name>Picklist_Dinner__c</name>
-        <picklistValues>
-            <masterLabel>Dinner 3</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Dinner 4</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Dinner 5</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Dinner1</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Dinner2</masterLabel>
-            <translation></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label></label>
         <name>Point_of_contact__c</name>
         <relationshipLabel></relationshipLabel>
     </fields>
