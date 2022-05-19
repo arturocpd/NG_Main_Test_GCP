@@ -220,10 +220,6 @@
         <fullName>WhatId</fullName>
         <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>WhoId</fullName>
-        <type>Lookup</type>
-    </fields>
     <listViews>
         <fullName>MyRecentEvents</fullName>
         <columns>START_DATE_TIME</columns>

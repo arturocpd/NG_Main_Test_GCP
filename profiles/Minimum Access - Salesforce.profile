@@ -4326,11 +4326,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Event.WhoId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Expense.Description</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -6182,11 +6177,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Task.WhatId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Task.WhoId</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
