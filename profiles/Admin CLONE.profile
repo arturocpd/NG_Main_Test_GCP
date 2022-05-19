@@ -4154,11 +4154,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Dinner__c.LateDinner__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Dinner__c.Picklist_Dinner_Table__c</field>
         <readable>false</readable>

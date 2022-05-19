@@ -5122,11 +5122,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Dinner__c.LateDinner__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Dinner__c.Nested_Field_Test__c</field>
         <readable>true</readable>
     </fieldPermissions>
