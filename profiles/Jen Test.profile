@@ -6964,9 +6964,6 @@
         <recordType>Task.Record_Type_on_Task</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Test_FB_FP_Issue__c-Test FB FP Issue Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Validation__c-Validation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
