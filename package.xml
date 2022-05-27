@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Bicycle__c.Electric__c</members>
+        <members>Lead.GoodBad__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Bicycle__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Bicycle__c-Bicycle Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Jen Test</members>
-        <name>Profile</name>
+        <members>Lead.Comercial_Lead_Record_Type</members>
+        <name>RecordType</name>
     </types>
     <version>54.0</version>
 </Package>
