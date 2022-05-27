@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Lead.Lead_Compact_Layout</members>
-        <name>CompactLayout</name>
+        <members>Lead.GoodBad__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>Lead.Comercial_Lead_Record_Type</members>
