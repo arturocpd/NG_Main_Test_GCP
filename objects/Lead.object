@@ -273,6 +273,12 @@
         </values>
     </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Lead_Compact_Layout</fullName>
+        <fields>CampaignId</fields>
+        <fields>Company</fields>
+        <label>Lead Compact Layout</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <externalSharingModel>ReadWriteTransfer</externalSharingModel>
@@ -1147,6 +1153,7 @@
         <fullName>Comercial_Lead_Record_Type</fullName>
         <active>true</active>
         <businessProcess>Comercial Lead Process</businessProcess>
+        <compactLayoutAssignment>Lead_Compact_Layout</compactLayoutAssignment>
         <label>Comercial Lead Record Type</label>
         <picklistValues>
             <picklist>GoodBad__c</picklist>
