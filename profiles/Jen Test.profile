@@ -176,6 +176,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>DeleteAppleWatch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Delete_me</apexClass>
         <enabled>false</enabled>
     </classAccesses>
