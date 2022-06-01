@@ -6,6 +6,11 @@
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Bicycle__c.Delete_custom_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Bicycle__c.Electric__c</field>
         <readable>true</readable>
