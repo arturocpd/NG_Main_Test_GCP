@@ -12,5 +12,9 @@
         <members>Bicycle__c-Bicycle Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Jen Test</members>
+        <name>Profile</name>
+    </types>
     <version>54.0</version>
 </Package>
