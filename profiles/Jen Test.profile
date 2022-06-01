@@ -5,6 +5,23 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bicycle__c.Electric__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Bicycle__c-Bicycle Layout</layout>
+    </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Bicycle__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
