@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ECC_LoanTriggerHandler_Test</members>
-        <members>ECC_Loan_PB_Handler_Test</members>
-        <members>KEF_AutoDecisionTest</members>
-        <members>KEF_LoanTriggerHandlerTest</members>
-        <members>KEF_LoanTriggerHandlerTest2</members>
-        <members>LoanTriggerHandler_Test</members>
+        <members>KEF_LoanTriggerHandler</members>
         <name>ApexClass</name>
     </types>
     <version>54.0</version>
