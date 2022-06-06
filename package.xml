@@ -4,5 +4,9 @@
         <members>Case.Test_UI_issue__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Jen Test</members>
+        <name>Profile</name>
+    </types>
     <version>54.0</version>
 </Package>
