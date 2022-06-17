@@ -3,14 +3,39 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Salesforce CMS</label>
     <navType>Console</navType>
     <tabs>standard-CmsAuthorHome</tabs>
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
+    <tabs>GenderTest__c</tabs>
+    <tabs>ADD_Product__c</tabs>
+    <tabs>ADD_Conficguration_Rule__c</tabs>
+    <tabs>ADD_Product_Rule__c</tabs>
+    <tabs>ADD_Product_Action__c</tabs>
+    <tabs>Known_Issue__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
+        <mappings>
+            <tab>ADD_Conficguration_Rule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product_Action__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product_Rule__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ADD_Product__c</tab>
+        </mappings>
+        <mappings>
+            <tab>GenderTest__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Known_Issue__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>
         </mappings>

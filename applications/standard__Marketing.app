@@ -4,6 +4,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Lead</tabs>
@@ -11,4 +12,15 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Dinner__c</tabs>
+    <tabs>CSTM_Object__c</tabs>
+    <tabs>IdeasVFTab</tabs>
+    <tabs>OLS_Test__c</tabs>
+    <tabs>GenderTest__c</tabs>
+    <tabs>ADD_Product__c</tabs>
+    <tabs>ADD_Conficguration_Rule__c</tabs>
+    <tabs>ADD_Product_Rule__c</tabs>
+    <tabs>ADD_Product_Action__c</tabs>
+    <tabs>Known_Issue__c</tabs>
+    <tabs>standard-Quote</tabs>
 </CustomApplication>

@@ -226,6 +226,14 @@
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
+        <fullName>BillingEmailAddress</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BillingPhoneNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CompanyAuthorizedById</fullName>
         <trackHistory>true</trackHistory>
         <type>Lookup</type>
@@ -271,6 +279,9 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>GrandTotalAmount</fullName>
+    </fields>
+    <fields>
         <fullName>IsReductionOrder</fullName>
     </fields>
     <fields>
@@ -285,6 +296,10 @@
     <fields>
         <fullName>OrderReferenceNumber</fullName>
         <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OrderedDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>OriginalOrderId</fullName>
@@ -309,6 +324,26 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>QuoteId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RelatedOrderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SalesChannelId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SalesStoreId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ShipToContactId</fullName>
         <trackHistory>true</trackHistory>
         <type>Lookup</type>
@@ -323,8 +358,60 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>TaxLocaleType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjDeliveryAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjProductAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedDeliveryAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedDeliveryTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedProductAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalAdjustedProductTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>TotalAmount</fullName>
         <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAdjDistAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAdjDistAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalDeliveryAdjDistTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAdjDistAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalProductAdjDistAmtWithTax</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalProductAdjDistTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Type</fullName>
@@ -356,6 +443,27 @@
         <filterScope>Everything</filterScope>
         <label>All Orders</label>
     </listViews>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>RecordType1</fullName>
+        <active>true</active>
+        <label>RecordType1</label>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test New Value</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ORDERS.ORDER_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>SALES.ACCOUNT.NAME</customTabListAdditionalFields>

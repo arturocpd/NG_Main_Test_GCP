@@ -12,6 +12,21 @@
             <operation>equals</operation>
             <value>True</value>
         </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Criteria_Sharing_3</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Criteria Sharing 3</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>DirectorChannelSales</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Status</field>
+            <operation>equals</operation>
+            <value>In Progress</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
         <fullName>Sharing_Campaign_2</fullName>
@@ -25,5 +40,6 @@
             <operation>equals</operation>
             <value>Super</value>
         </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
 </SharingRules>

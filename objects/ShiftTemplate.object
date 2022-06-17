@@ -130,6 +130,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>BackgroundColor</fullName>
+        <inlineHelpText>Set a background color to highlight shifts in the schedule view.</inlineHelpText>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>
@@ -141,6 +145,9 @@
     </fields>
     <fields>
         <fullName>IsActive</fullName>
+    </fields>
+    <fields>
+        <fullName>IsNonStandard</fullName>
     </fields>
     <fields>
         <fullName>JobProfileId</fullName>
@@ -163,6 +170,9 @@
     <fields>
         <fullName>StartTime</fullName>
     </fields>
+    <fields>
+        <fullName>TimeSlotType</fullName>
+    </fields>
     <listViews>
         <fullName>All_ShiftTemplates</fullName>
         <filterScope>Everything</filterScope>
@@ -180,12 +190,14 @@
         <customTabListAdditionalFields>ShiftTemplateDurationType</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
         <customTabListAdditionalFields>RecordsetFilterCriteria</customTabListAdditionalFields>
+        <customTabListAdditionalFields>TimeSlotType</customTabListAdditionalFields>
         <searchResultsAdditionalFields>JobProfile</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>StartTime</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Duration</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ShiftTemplateDurationType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>RecordsetFilterCriteria</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TimeSlotType</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Read</sharingModel>
 </CustomObject>

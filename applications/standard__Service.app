@@ -4,6 +4,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
@@ -11,4 +12,8 @@
     <tabs>standard-Solution</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Dinner__c</tabs>
+    <tabs>CSTM_Object__c</tabs>
+    <tabs>Knowledge__kav</tabs>
+    <tabs>Known_Issue__c</tabs>
 </CustomApplication>

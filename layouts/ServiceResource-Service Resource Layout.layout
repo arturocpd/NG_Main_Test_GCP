@@ -7,11 +7,15 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SchedulingConstraintId</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>RelatedRecordId</field>
             </layoutItems>
             <layoutItems>
@@ -72,6 +76,9 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>SchedulingConstraintId</fields>
+    </miniLayout>
     <relatedLists>
         <fields>ServiceAppointment</fields>
         <relatedList>ServiceAppointments</relatedList>
@@ -119,14 +126,6 @@
         <fields>StartDate</fields>
         <fields>EndDate</fields>
         <relatedList>TimeSheets</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>ServiceCrew</fields>
-        <fields>IsLeader</fields>
-        <fields>StartDate</fields>
-        <fields>EndDate</fields>
-        <relatedList>ServiceCrews</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>

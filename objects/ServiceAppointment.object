@@ -162,6 +162,7 @@
     </fields>
     <fields>
         <fullName>Address</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -177,12 +178,18 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>BundlePolicyId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ContactId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -199,6 +206,18 @@
     </fields>
     <fields>
         <fullName>EarliestStartTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsBundle</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsBundleMember</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsManuallyBundled</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -221,6 +240,11 @@
     </fields>
     <fields>
         <fullName>ParentRecordType</fullName>
+    </fields>
+    <fields>
+        <fullName>RelatedBundleId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>SchedEndTime</fullName>
@@ -250,6 +274,7 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

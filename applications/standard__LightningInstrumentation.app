@@ -3,8 +3,17 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>IdeasVFTab</tabs>
+    <tabs>OLS_Test__c</tabs>
+    <tabs>GenderTest__c</tabs>
+    <tabs>ADD_Product__c</tabs>
+    <tabs>ADD_Conficguration_Rule__c</tabs>
+    <tabs>ADD_Product_Rule__c</tabs>
+    <tabs>ADD_Product_Action__c</tabs>
+    <tabs>Known_Issue__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
