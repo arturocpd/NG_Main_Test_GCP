@@ -32,7 +32,7 @@
             "remoteTimeout": 30000,
             "typeFilter": ""
         },
-        "label": "AR Step 2",
+        "label": "DGV Step2",
         "message": {
         },
         "nextLabel": "Next",
