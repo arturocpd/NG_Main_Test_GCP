@@ -2,6 +2,21 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.DMD_Test_Picklist_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.ELENA__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bicycle__c.Electric__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Address</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -21,4 +36,4 @@
         <object>Lead</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-</PermissionSet> 
+</PermissionSet>
