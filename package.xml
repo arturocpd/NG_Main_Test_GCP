@@ -5,10 +5,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Bicycle__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
         <members>Commit_Test</members>
         <name>PermissionSet</name>
     </types>
