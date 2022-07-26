@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>DX_conflict_resolution</members>
-        <name>CustomLabel</name>
+        <members>standard-Account</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Tab Test</members>
+        <name>Profile</name>
     </types>
     <version>55.0</version>
 </Package>
